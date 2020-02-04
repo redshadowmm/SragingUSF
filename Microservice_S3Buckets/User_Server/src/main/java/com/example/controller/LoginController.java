@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+//import org.springframework.web.client.RestTemplate;
 
 import com.example.modle.User;
 import com.example.service.UserService;
@@ -17,14 +17,14 @@ import com.example.service.UserService;
 public class LoginController {
 	
 	private UserService userService;
-	private RestTemplate restTemp;
+	//private RestTemplate restTemp;
 	
 	public LoginController() {
 	}
 	@Autowired	
-	public LoginController(UserService userService, RestTemplate restTemp) {
+	public LoginController(UserService userService) {
 		this.userService = userService;
-		this.restTemp= restTemp;
+		//this.restTemp= restTemp;
 	}
 
 	@GetMapping("/logging_in")
