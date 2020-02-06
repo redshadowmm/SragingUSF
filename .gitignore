@@ -34,3 +34,6 @@ build/
 .DS_Store
 Interview_ServiceDB.trace.db
 Interview_ServiceDB.mv.db
+Microservice_S3Buckets/User_Server/UserDB.mv.db
+Microservice_S3Buckets/Post_Server/PostDB.mv.db
+Microservice_S3Buckets/Post_Server/PostDB.trace.db
